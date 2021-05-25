@@ -1,0 +1,51 @@
+## Git Commands
+
+Acions | Command
+--- | --- 
+Initialize Git Repository | ``` git init ``` 
+
+
+#### Initialize Git Repository   
+```
+git init
+```   
+
+#### View Git configuartion  
+```
+git config --list
+``` 
+
+#### Set Git user name to config  
+```
+git config user.name "example_username"
+```
+
+#### Set Git user email to config  
+```
+git config user.email "example@ex.com"
+```
+
+#### Cloning a git repository  
+```
+git clone <url>
+```
+
+#### Pulling a git repository  
+```
+git pull
+```
+
+#### Pushing into a git repository  
+```
+git push
+```
+
+#### View status of working tree  
+```
+git status
+```
+
+#### checkout to a branch / create branch if the branch doesnt exist  
+```
+git checkout -b branchname
+```
