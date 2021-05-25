@@ -1,9 +1,5 @@
 ## Git Commands
 
-Acions | Command
---- | --- 
-Initialize Git Repository | ``` git init ``` 
-
 
 #### Initialize Git Repository   
 ```
