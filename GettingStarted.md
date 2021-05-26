@@ -41,6 +41,16 @@ git push
 git status
 ```
 
+#### View all branches  
+```
+git branch -a
+```
+
+#### VRename current branch
+```
+git branch -M new_branch_name
+```
+
 #### checkout to a branch / create branch if the branch doesnt exist  
 ```
 git checkout -b branchname
