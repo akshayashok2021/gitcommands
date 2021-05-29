@@ -33,5 +33,21 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 6) #### You will be prompted to "enter same passphrase again", you can press enter again  
 7) #### Copy the directory where the key is stored into
 ![image](https://user-images.githubusercontent.com/84670431/120062943-4b81a080-c082-11eb-9c6b-77f913c741d6.png) 
-8) Go to the directory and you must be able to see the new ssh key
+8) Go to the directory and you must be able to see the new ssh key  
+
+### Add Remote url from the command
+Command | Description  
+--- | --- 
+git remote add origin "remote-url" | Adding url wher your changes will be pushed to
+
+# Create Branch
+Command | Description  
+--- | --- 
+git branch "branch_name" | Adding new branch
+git branch -a | View all branches
+git checkout "branch_name" | Checkout to your newly created branch
+
+
+  
+
 
