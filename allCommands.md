@@ -57,3 +57,9 @@
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Generating SSH keys
+
+| Command | Description |
+| ------- | ----------- |
+|`ssh-keygen -t ed25519 -C "your_email@example.com"` | Generate SSH Keys |
